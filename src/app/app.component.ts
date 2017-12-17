@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+
+  isButtonVisibleParent :boolean = false;
+  /*receiveMessage($event) {
+    this.isButtonVisibleParent = $event
+  }*/
   title = 'app';
 }
